@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00750E001F9BC84500B84B08 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00750DFF1F9BC84500B84B08 /* DroppablePin.swift */; };
 		008CEE8E1F96F5840054F375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CEE8D1F96F5840054F375 /* AppDelegate.swift */; };
 		008CEE901F96F5840054F375 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CEE8F1F96F5840054F375 /* MapVC.swift */; };
 		008CEE931F96F5840054F375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008CEE911F96F5840054F375 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00750DFF1F9BC84500B84B08 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		008CEE8A1F96F5840054F375 /* pixel-map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel-map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008CEE8D1F96F5840054F375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008CEE8F1F96F5840054F375 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		008CEEA01F96F5CE0054F375 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00750DFF1F9BC84500B84B08 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008CEE901F96F5840054F375 /* MapVC.swift in Sources */,
+				00750E001F9BC84500B84B08 /* DroppablePin.swift in Sources */,
 				008CEE8E1F96F5840054F375 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
